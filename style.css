@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+.navbar{
+    background-color: #AA0000;
+    color: white;
+    height: 100px;
+    max-height: 100px;
+    min-height: 100px;
+}
+
+
+.navbar-brand{
+    width: fit-content;
+    /* border: 2px solid red; */
+    font-weight: bold;
+    font-size: xx-large;
+    color: white;
+}
+
+
+#search-btn{
+    color: white;
+    background-color: black !important;
+}
+
+#input-search:focus[type=search]{
+    box-shadow: none;
+}
+
+.card {
+    /* border: 2px solid red; */
+    height: fit-content;
+    border-radius: 20px;
+    background-color: grey;
+    border: 1PX solid #AA0000;
+
+}
+
+.card:hover {
+    /* transform: scale(1.2);
+    transition: 500ms; */
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+    transition: 1s ease;
+}
+
+.card:not(:hover) {
+    transition: 500ms;
+
+}
+
+.img-card {
+    border-radius: 20px;
+    /* height: 425.5px !important; */
+    
+}
+
+#img-body {
+    margin-top: 60px;
+}
+
+.side-title {
+   color: white;
+   font-size: xx-large;
+   
+}
+
+
+
+ion-icon {
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+  }
+  
+  
+  
+  /* a tag */
+  a {
+    text-decoration: none;
+  }
+  
+  .social-icon{
+    color: white !important;
+  }
+  
+  .social-icon:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+  }
+  
+  .social-icon:not(:hover){
+  
+    transition: 0.5s;
+  }
+  
+  
+  
